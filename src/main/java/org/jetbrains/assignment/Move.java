@@ -4,6 +4,11 @@ public class Move {
     private String direction;
     private int steps;
 
+    public Move(String direction, int steps) {
+        this.direction = direction;
+        this.steps = steps;
+    }
+
     // Getters
     public String getDirection() {
         return direction;
